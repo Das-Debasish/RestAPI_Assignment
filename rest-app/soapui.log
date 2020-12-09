@@ -1,0 +1,28 @@
+2020-12-09 20:04:28,138 WARN  [SoapUI] Missing folder [C:\IBMProjects\UPSKILL PROGRAM\APITest\RESTTesting\rest-app\ext] for external libraries
+2020-12-09 20:04:28,405 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\DebasisDebasis\soapui-settings.xml]
+2020-12-09 20:04:29,996 INFO  [WsdlProject] Loaded project from [file:/C:/IBMProjects/UPSKILL%20PROGRAM/APITest/RESTTesting/rest-app/Rest-Assignment-soapui-project.xml]
+2020-12-09 20:04:30,608 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Rest_Assignment]
+2020-12-09 20:04:30,610 INFO  [SoapUITestCaseRunner] Running Project [Rest_Assignment], runType = SEQUENTIAL
+2020-12-09 20:04:30,630 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_011]
+2020-12-09 20:04:30,656 INFO  [SoapUITestCaseRunner] running step [GetAccessToken]
+2020-12-09 20:04:32,892 INFO  [log] 966adfd864cf841722c32fd837e5e26ebdaa7b54
+2020-12-09 20:04:32,969 INFO  [log] [HTTP/1.1 200 OK]
+2020-12-09 20:04:33,002 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-09 20:04:33,002 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-09 20:04:33,003 INFO  [SoapUITestCaseRunner] running step [LoginAdminUser]
+2020-12-09 20:04:33,433 INFO  [log] [HTTP/1.1 200 OK]
+2020-12-09 20:04:33,435 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-09 20:04:33,439 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-09 20:04:33,442 INFO  [SoapUITestCaseRunner] running step [GetAccountDetails]
+2020-12-09 20:04:33,913 INFO  [log] [HTTP/1.1 200 OK]
+2020-12-09 20:04:33,915 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-09 20:04:33,916 INFO  [SoapUITestCaseRunner] running step [AddNewCategory]
+2020-12-09 20:04:34,358 INFO  [log] 2105
+2020-12-09 20:04:34,385 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-09 20:04:34,385 INFO  [SoapUITestCaseRunner] running step [GetCategoryList]
+2020-12-09 20:04:34,795 INFO  [SoapUITestCaseRunner] running step [GetCategoryID]
+2020-12-09 20:04:35,226 INFO  [log] [HTTP/1.1 200 OK]
+2020-12-09 20:04:35,227 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-09 20:04:35,230 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-12-09 20:04:35,607 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_011], time taken: 3819ms, status: FINISHED
+2020-12-09 20:04:35,611 INFO  [SoapUITestCaseRunner] Project [Rest_Assignment] finished with status [FINISHED] in 4994ms
